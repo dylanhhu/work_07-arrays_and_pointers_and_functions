@@ -3,10 +3,12 @@
 
 void print_array(int *arr, int arr_len);
 
-int avg_array(int *arr, int arr_len);
+double avg_array(int *arr, int arr_len);
 
 void copy_array(int *arr1, int *arr2, int arr1_len);
 
-int * gen_rand_array(int length);
+// Useful functions for testing
+void fill_random_array(int *arr, int arr_len);
+void fill_zeros_array(int *arr, int arr_len);
 
 #endif
